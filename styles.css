@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+#player {
+  font-size: large;
+  font-weight: 700;
+  color: teal;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.board {
+  width: 480px;
+  height: 480px;
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.cell svg {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  z-index: 100;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.grey {
+  background-color: grey;
+}
